@@ -73,6 +73,12 @@ nav {
     font-weight: 300;
 }
 
+.desc p {
+    color: #EEE5FF;
+    font-family: "Outfit", Sans-serif;
+    font-size: 18px;
+}
+
 .heading {
     font-size: 30px;
     line-height: 65px;
@@ -429,6 +435,10 @@ ul {
         width: auto;
     }
 
+    .section-box {
+        margin-bottom: 0;
+    }
+
     .section-box , .page-box {
         width: auto;
     }
@@ -469,6 +479,7 @@ ul {
         gap: 2rem;
         padding: 20px 0;
         justify-content: center;
+        margin-top: 0;
         
     }
 
