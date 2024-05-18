@@ -10,13 +10,7 @@ html,body {
     font-family: "Sora","Outfit";
     overflow-x: hidden;
 }
-canvas#canvas {
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-}
+
 nav {
     max-width: 1280px;
     margin: auto;
@@ -29,6 +23,7 @@ nav {
     max-width: 1280px;
     margin: auto;
     padding-top: 6rem;
+    
 }
 .content {
     width: 100%;
@@ -54,11 +49,13 @@ nav {
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 #purchase-btn:hover {
     background-color: #12121d;
     color: #EEE5FF;
+    position: relative;
 }
 
 .title {
@@ -499,7 +496,6 @@ ul {
     }
   }
 
-/* -----------------------------------For Ipad Devices-----------------------------------------------*/
 
   @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation : portrait) {
     
